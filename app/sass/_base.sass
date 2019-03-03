@@ -1,0 +1,178 @@
+// Icon moon
+@font-face
+  font-family: 'icomoon'
+  src:  url('../fonts/icomoon.eot?tb90jx')
+  src:  url('fonts/icomoon.eot?tb90jx#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tb90jx') format('truetype'),url('../fonts/icomoon.woff?tb90jx') format('woff'), url('../fonts/icomoon.svg?tb90jx#icomoon') format('svg')
+  font-weight: normal
+  font-style: normal
+
+.icon 
+  font-family: 'icomoon' !important
+  speak: none
+  font-style: normal
+  font-weight: normal
+  font-variant: normal
+  text-transform: none
+  line-height: 1
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.icon-star-empty:before 
+  content: "\e9d7"
+
+.icon-star-half:before 
+  content: "\e9d8"
+
+.icon-star-full:before 
+  content: "\e9d9"
+
+.icon-chevron-right:before 
+  content: "\e900"
+
+.icon-chevron-left:before 
+  content: "\e901"
+
+
+.container
+	max-width: 1280px
+	padding: 0
+
+// Titles
+.title
+	&.title-lg
+		font-family: $default-font
+		font-size: 40px
+		font-weight: 700
+		margin-bottom: 31px
+		span
+			font-weight: 300
+	&.title-sm
+		color: $text-dark
+		font-family: $default-font
+		font-size: 20px
+		font-weight: 700
+		text-transform: uppercase
+		margin-bottom: 10px
+	&.title-white
+		color: $text-white
+
+
+// Buttons
+.btn
+	border-radius: 2px
+	border: 1px solid transparent
+	cursor: pointer
+	font-family: $default-font
+	text-decoration: none
+	&:hover
+		text-decoration: none
+	&.btn-sm
+		padding: 9px 34px
+		&:hover
+			background-color: $background-white
+			color: $text-black
+	&+.bnt-sm
+		margin-left: 16px
+	&.btn-lg
+		padding: 17px 44px
+		color: $text-black
+		font-size: 19px
+		font-weight: 700
+		letter-spacing: 1px
+		text-transform: uppercase
+	&.btn-md
+		height: 48px
+		border-radius: 2px
+		padding: 13px 38px
+		font-size: 18px
+		font-weight: 500
+	&.btn-default
+		border-color: #fff
+		color: $text-white
+		font-size: 15px
+		font-weight: 500
+		text-transform: uppercase
+	&.btn-primary
+		background-color: $background-blue
+		color: $text-white
+	&.btn-info
+		background-color: $background-yellow
+	&.btn-basic
+		background-color: $background-white
+		color: $text-blue
+
+
+
+// Forms
+.form-inline
+	display: flex
+  	flex-flow: row wrap
+  	align-items: center	
+	.form-group
+		display: flex
+    	flex: 0 0 auto
+    	flex-flow: row wrap
+    	align-items: center
+    	margin-bottom: 0
+		&+.form-group
+			margin-left: 20px
+		&+.btn
+			margin-left: 20px
+		.form-control
+			padding: 24px
+			border-radius: 2px
+			background-color: $background-white	
+			border: none
+			color: #000000
+			font-family: $default-font
+			font-size: 18px
+			font-weight: 400
+			&:focus
+				outline: none
+
+
+
+
+  	
+	
+    	
+			
+				
+  
+
+
+
+	
+// .base-btn
+// 	display: flex
+// 	align-items: center
+// 	justify-content: center
+// 	height: 56px
+// 	width: 100%
+// 	max-width: 204px
+// 	border-radius: 28px
+// 	background-color: $blue
+// 	font-size: 12px
+// 	font-weight: bold
+// 	text-transform: uppercase
+// 	letter-spacing: 0.5px
+// 	border: none
+// 	color: #fff
+// 	transition: all 0.3s ease
+// 	&:hover
+// 		cursor: pointer
+// 		color: #fff
+// 		text-decoration: none
+// 		background: #295ba4
+// 	&.btn-large
+// 		max-width: 260px
+// 		height: 62px
+// 	&.btn-transparent
+// 		background-color: transparent
+// 		border: 2px solid #fff
+// 		&:hover
+// 			cursor: pointer
+// 			color: #fff
+// 			text-decoration: none
+// 			background: #295ba4
+// 			border: 2px solid #295ba4		
