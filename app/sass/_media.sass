@@ -111,7 +111,9 @@
 		.inner
 			background-image: none
 			background-color: $background-dark-blue
+			min-height: 614px
 			.inner-content
+				padding: 28px 0 38px
 				h1
 					font-size: 28px
 					line-height: 36px
@@ -122,6 +124,7 @@
 					font-size: 16px
 					line-height: 25px
 				.subscription
+					margin-top: 20px
 					h2
 						font-size: 17px
 						letter-spacing: 0.43px
@@ -174,7 +177,7 @@
 				.owl-nav
 					top: auto
 					right: 50%
-					bottom: -60px
+					bottom: -70px
 					transform: translateX(50%)
 					.owl-stage-outer
 						padding-bottom: 60px
@@ -189,7 +192,11 @@
 					top: 100%
 					right: 50%
 					transform: translateX(50%)
+		.reviews
+			.owl-stage-outer
+				margin: 0
 		.our-subscription
+			padding: 30px 0
 			.title
 				font-size: 28px
 			span
@@ -198,7 +205,8 @@
 				line-height: 31px
 				text-transform: uppercase
 		.plagiarizm-checker
-			margin-bottom: 70px
+			margin-top: 110px
+			margin-bottom: 124px
 			.plagiarizm-carousel
 				margin: 0
 				position: relative
@@ -210,7 +218,7 @@
 							max-width: 50%
 			.owl-nav
 				position: absolute
-				bottom: -65px
+				bottom: -73px
 				left: 50%
 				transform: translateX(-50%)
 
@@ -241,10 +249,16 @@
 				margin-top: 20px
 			.payment
 				width: 100%
+				span
+					width: 135px
+				.payment-system
+					img
+						max-width: 80%
 
 
 @media screen and (max-width: 800px)
 	.our-writers
+		padding-top: 40px
 		.writers-carousel
 			.owl-nav
 				top: auto
@@ -311,10 +325,18 @@
 				.btn-md
 					max-width: 100%
 	.reviews
+		margin-top: 24px
+		.title
+			margin-bottom: 11px
+			.reviews-info
+				display: none
 		.reviews-carousel
 			padding: 0
 			.owl-item
 				.review-item
+					padding: 24px
+					.review-content
+						margin: 10px 0
 			.owl-stage-outer
 				// padding-left: 100px
 				// padding-right: 100px
@@ -322,7 +344,7 @@
 					// max-width: 600px !important
 					// width: 100% !important
 	.plagiarizm-checker
-			margin-bottom: 70px
+			margin-bottom: 124px
 			.plagiarizm-carousel
 				position: relative
 				.plagiarizm-item
@@ -344,6 +366,7 @@
 				left: 50%
 				transform: translateX(-50%)
 	.how-it-works
+		padding: 36px 0 34px
 		.btn-md
 			max-width: 100%
 	
@@ -357,12 +380,6 @@
 					&+a
 						margin-left: 0
 
-@media screen and (max-width: 440px)
-	.footer
-		.container
-			.payment
-				display: none !important
-	
 
 /*==========  Mobile First  ==========*/
 
