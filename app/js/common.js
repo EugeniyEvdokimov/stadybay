@@ -10,7 +10,7 @@ function screenClass() {
             var owl2 = $('.plagiarizm-carousel');
             owl2.owlCarousel({
                 items:1,
-                loop:true,
+                loop: true,
                 margin: 0,
                 smartSpeed: 500,
                 dots: false,
@@ -57,7 +57,7 @@ $(document).ready(function() {
             itemsTablet: [600, 1],
             itemsMobile: false,
             pagination: false,
-            loop:true,
+            loop: true,
             dots: false,
             responsive: {
                 0: {
@@ -90,7 +90,7 @@ $(document).ready(function() {
             itemsMobile: false,
             pagination: false,
             dots: false,
-            loop:true,
+            loop: true,
             stagePadding: 100,
             responsive: {
                 0: {
