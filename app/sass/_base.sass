@@ -73,19 +73,35 @@
 			color: $text-black
 	&+.bnt-sm
 		margin-left: 16px
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 40px
+		width: 100%
+		max-width: 204px
 	&.btn-lg
-		padding: 17px 44px
 		color: $text-black
 		font-size: 19px
 		font-weight: 700
 		letter-spacing: 1px
 		text-transform: uppercase
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 64px
+		width: 100%
+		max-width: 204px
 	&.btn-md
 		height: 48px
 		border-radius: 2px
-		padding: 13px 38px
 		font-size: 18px
 		font-weight: 500
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 48px
+		width: 100%
+		max-width: 204px
 	&.btn-default
 		border-color: #fff
 		color: $text-white
@@ -95,11 +111,17 @@
 	&.btn-primary
 		background-color: $background-blue
 		color: $text-white
+		&:hover
+			background-color: darken($background-blue,10%)
 	&.btn-info
 		background-color: $background-yellow
+		&:hover
+			background-color: darken($background-yellow,10%)
 	&.btn-basic
 		background-color: $background-white
 		color: $text-blue
+		&:hover
+			background-color: darken($background-white,10%)
 
 
 
